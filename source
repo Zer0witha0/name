@@ -1,2 +1,23 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("TITLE", "Synapse")
+local Window = Library.CreateLib("Zer0", "Synapse")
+
+-- MAIN
+local MAIN = Window:NewTab("FARM")
+local Main = Main:NewSection("Main")
+
+
+MainSection:NewButton("open ZENHUB", "opens ZEN HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bloxfrui%20v0.3", true))()
+end)
+
+MainSection:NewButton("open a universal script", "Uniniversal", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+end)
+
+MainSection:NewButton("ThunderZ hub", "ThunderZ hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()print("Clicked")
+end)
+
+MainSection:NewButton("Hoho hub", "HoHo Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
