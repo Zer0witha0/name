@@ -26,3 +26,22 @@ MainSection:NewButton("open neva hub", "Neva hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
 end)
 
+MainSection:NewButton("Psx blox fruits arsenal dahood etc", "Psx blox fruits arsenal dahood etc script", function()
+    print("Clicked")
+end)
+
+MainSection:NewButton("combat warriors", "combat warriors script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiritXmas/Project-Hook/main/required.lua"))()
+end)
+
+MainSection:NewButton("infinite yield", "infinite yield", function()
+    ploadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MainSection:NewButton("", "ButtonInfo", function()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Bed wars", "Bed wars", function()
+    loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/a42fcf2c-c780-4077-8872-fa593f964db9')()
+end)
