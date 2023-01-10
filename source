@@ -67,3 +67,23 @@ until Server
 TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
 
 end)
+
+MainSection:NewButton("psx mobile", "psx mobile", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kidichi/Kidachi/main/KidachiHub/Psx', true))()
+end)
+
+MainSection:NewButton("psx pc", "psx pc", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Kidichi/Kidachi/main/KidachiHub/Psx', true))()
+end)
+
+MainSection:NewButton("Blox fruits cframe hub", "cframe hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit_Mobile.lua"))()
+end)
+
+MainSection:NewButton("Blox fruits string hub", "Blox fruits string hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
+MainSection:NewButton("Blox fruits atomic hub", "Bloxfruits atomic hub", function()
+    loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
+end)
