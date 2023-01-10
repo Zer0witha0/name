@@ -3,7 +3,7 @@ local Window = Library.CreateLib("Zer0", "Synapse")
 
 -- MAIN
 local MAIN = Window:NewTab("Main/Scripts")
-local Main = Main:NewSection("Main")
+local Main = scripts:NewSection("Scripts")
 
 
 MainSection:NewButton("open ZENHUB", "opens ZEN HUB", function()
@@ -146,4 +146,16 @@ end)
 
 Section:NewButton("combat warriors", "combat warriors", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jkjX21VF"))()
+end)
+
+-- LOCAL PLAYER
+local Player = Window:NewTab("Player")
+local PlayerSection = Tab:NewSection("Player")
+
+PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
