@@ -137,5 +137,13 @@ Section:NewButton("King legacy", "king legacy", function()
 end)
 
 Section:NewButton("project new world", "project new world", function()
-    print("Clicked")
+    loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
+end)
+
+Section:NewButton("legends of speed", "legends of speed", function()
+    loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
+end)
+
+Section:NewButton("combat warriors", "combat warriors", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jkjX21VF"))()
 end)
