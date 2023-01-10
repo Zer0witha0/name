@@ -85,5 +85,57 @@ MainSection:NewButton("Blox fruits string hub", "Blox fruits string hub", functi
 end)
 
 MainSection:NewButton("Blox fruits atomic hub", "Bloxfruits atomic hub", function()
-    loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ArceusXHub/atomic-hub/main/atomic-hub"))()
+end)
+
+Section:NewButton("universal script", "universal", function()
+    loadstring(https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V3/main/Games%20HUB%20Destroyer%20V3"))()
+end)
+
+MainSection:NewButton("dahood", "dahood", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RuM4jA5J",true))()
+end)
+
+MainSection:NewButton("Bee swarm", "Bee swarm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/arktzyt/test/main/DarkCyber2.0"))()
+end)
+
+MainSection:NewButton("Bed wars", "Bed wars", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+MainSection:NewButton("keybord script", "keyboard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Section:NewButton("pls donate", "pls donate", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
+end)
+
+Section:NewButton("shindo life", "shindo life", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Section:NewButton("arsenal", "arsenal", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+
+Section:NewButton("combat warriors", "combat warriors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
+end)
+
+Section:NewButton("demon fall", "demon fall", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/DemonCockCandy",true))()
+end)
+
+Section:NewButton("Doors", "Doors", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Section:NewButton("King legacy", "king legacy", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/King-Legacy/main/README.md"))()
+end)
+
+Section:NewButton("project new world", "project new world", function()
+    print("Clicked")
 end)
