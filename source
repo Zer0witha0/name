@@ -169,3 +169,13 @@ end)
 --Other
 local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Other")
+
+OtherSection:NewButton("chat spoofer", "lets you chat for other people", function()
+    loadstring(game:HttpGet(('https//pastebin.com/raw/djBfk8Li').true))()
+end)
+
+OtherSection:NewButton("Bypassed fly", "Bird mode", function()
+    loadstring(game:HttpGet(('https//raw.githubusercontent.com/N1cuse/RobloxScripts/main/BypassedFly.lua"))()
+    
+    Fly(true)
+end)
