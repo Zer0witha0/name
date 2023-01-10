@@ -112,39 +112,39 @@ Section:NewButton("pls donate", "pls donate", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
 end)
 
-Section:NewButton("shindo life", "shindo life", function()
+MainSection:NewButton("shindo life", "shindo life", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-Section:NewButton("arsenal", "arsenal", function()
+MainSection:NewButton("arsenal", "arsenal", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
 end)
 
-Section:NewButton("combat warriors", "combat warriors", function()
+MainSection:NewButton("combat warriors", "combat warriors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
 end)
 
-Section:NewButton("demon fall", "demon fall", function()
+MainSection:NewButton("demon fall", "demon fall", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/DemonCockCandy",true))()
 end)
 
-Section:NewButton("Doors", "Doors", function()
+MainSection:NewButton("Doors", "Doors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 end)
 
-Section:NewButton("King legacy", "king legacy", function()
+MainSection:NewButton("King legacy", "king legacy", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/King-Legacy/main/README.md"))()
 end)
 
-Section:NewButton("project new world", "project new world", function()
+MainSection:NewButton("project new world", "project new world", function()
     loadstring(game:HttpGet("https://www.soggy-ware.cf"))()
 end)
 
-Section:NewButton("legends of speed", "legends of speed", function()
+MainSection:NewButton("legends of speed", "legends of speed", function()
     loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
 end)
 
-Section:NewButton("combat warriors", "combat warriors", function()
+MainSection:NewButton("combat warriors", "combat warriors", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jkjX21VF"))()
 end)
 
@@ -156,7 +156,7 @@ PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s)
+PlayerSection:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
