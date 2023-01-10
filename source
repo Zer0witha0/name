@@ -152,14 +152,20 @@ end)
 local Player = Window:NewTab("Player")
 local PlayerSection = Tab:NewSection("Player")
 
-PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
-Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section:NewSlider("Jump Power", "Jump High!!", 350, 50, function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-MainSection:NewButton("infinite yield", "infinite yield", function()
-    ploadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+PlayerSection:NewButton("Reset WS/JP", "resets to all defualts", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
 end)
+
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
